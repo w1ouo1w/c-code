@@ -85,10 +85,34 @@ return 0;
     return 0;
 }
 */
-int main(void)
+/*=int main(void)
 {
+    again:
+        printf("hehe\n");
+        goto again;
+        return 0;
+}*/
+/*int main(void)
+{
+    char input[20] = {0};
 
-}
+    system("shutdown -s -t 600");
+    again:
+    printf("请注意，你的电脑将在十分钟内关机，如果输入：我是猪，就取消关机\n请输入:>");
+    scanf("%s",input);
+    if(strcmp(input,"我是猪") == 0)
+    {
+        system("shutdown -a");
+    }
+    else
+    {
+        goto again;
+    }
+
+    return 0;
+}*/
+
+
 
 
 
